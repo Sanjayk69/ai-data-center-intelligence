@@ -1,0 +1,21 @@
+{
+  "source_dataset": "MIT Supercloud GPU telemetry pilot",
+  "telemetry_rows": 828531,
+  "gpu_kpi_rows": 64,
+  "job_analytics_rows": 26,
+  "workload_families": [
+    "GNN",
+    "NLP",
+    "Vision"
+  ],
+  "jobs_with_matching_gpu_allocation": 25,
+  "jobs_with_incomplete_gpu_allocation": 1,
+  "energy_measurement": "Estimated GPU energy from observed power telemetry",
+  "limitations": [
+    "Pilot sample is not a controlled workload benchmark.",
+    "Observed telemetry may not cover complete scheduler runtime.",
+    "One job has telemetry for only 2 of 4 allocated GPUs.",
+    "GPU energy excludes CPU, memory, cooling, and facility overhead.",
+    "Family summaries may be affected by differences in job duration and GPU count."
+  ]
+}

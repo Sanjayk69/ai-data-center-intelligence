@@ -1,0 +1,27 @@
+job_id,scheduler_gpu_count,scheduler_nodelists,source_files,observed_nodes,candidate_devices,candidate_matches_allocation,coverage_status
+13063192210942,8,"['r2652301-n830961', 'r4822976-n139058', 'r8015356-n386398', 'r8015356-n976057']",4,4,8,True,complete_device_count
+15179646833041,2,['r1682297-n851693'],1,1,2,True,complete_device_count
+15305255756787,1,['r6760045-n685852'],1,1,1,True,complete_device_count
+18203079158032,2,['r4327055-n136082'],1,1,2,True,complete_device_count
+18242747496687,1,['r6760045-n685852'],1,1,1,True,complete_device_count
+2304959634945,2,['r5715171-n136082'],1,1,2,True,complete_device_count
+25713459161743,4,"['r4858666-n976057', 'r9352821-n830961']",2,2,4,True,complete_device_count
+29381280178268,4,"['r1682297-n976057', 'r3041626-n976057']",1,1,2,False,incomplete_source_telemetry
+36230628475012,2,['r9555635-n139058'],1,1,2,True,complete_device_count
+38596192451856,4,"['r7343737-n976057', 'r9102715-n976057']",2,2,4,True,complete_device_count
+42978538849394,2,['r3405251-n208530'],1,1,2,True,complete_device_count
+44317307973280,4,"['r3117156-n139058', 'r3879907-n139058']",2,2,4,True,complete_device_count
+48020198141948,1,['r9352821-n830961'],1,1,1,True,complete_device_count
+48510612336879,2,['r6760045-n851693'],1,1,2,True,complete_device_count
+55788973536832,4,"['r4179716-n911952', 'r6272977-n911952']",2,2,4,True,complete_device_count
+59030654331752,1,['r8579942-n208530'],1,1,1,True,complete_device_count
+59464190077432,2,['r3405251-n208530'],1,1,2,True,complete_device_count
+59638293409445,4,"['r3117156-n136082', 'r9352821-n830961']",2,2,4,True,complete_device_count
+68307271431118,2,['r1682297-n911952'],1,1,2,True,complete_device_count
+74636684972411,2,['r6760045-n851693'],1,1,2,True,complete_device_count
+78604982814993,1,['r9192091-n386398'],1,1,1,True,complete_device_count
+79150048009801,2,['r8642123-n851693'],1,1,2,True,complete_device_count
+80249445248004,4,"['r3741709-n976057', 'r629115-n976057']",2,2,4,True,complete_device_count
+80384695883841,1,['r6760045-n830961'],1,1,1,True,complete_device_count
+8427789164283,2,['r629115-n43543'],1,1,2,True,complete_device_count
+9761351256032,2,['r9192091-n386398'],1,1,2,True,complete_device_count

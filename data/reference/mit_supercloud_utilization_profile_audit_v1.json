@@ -1,0 +1,22 @@
+{
+  "dataset": "MIT Supercloud GPU telemetry pilot",
+  "thresholds": {
+    "near_idle_gpu_utilization_pct_lte": 1,
+    "low_utilization_gpu_utilization_pct_lt": 10,
+    "high_utilization_gpu_utilization_pct_gte": 75
+  },
+  "summary": {
+    "observations": 828531,
+    "jobs": 26,
+    "near_idle_pct": 1.385,
+    "low_util_pct": 1.5468,
+    "high_util_pct": 91.4253,
+    "mean_gpu_utilization_pct": 87.9164
+  },
+  "limitations": [
+    "Pilot contains 26 jobs and is not a representative estimate of the entire data center.",
+    "Telemetry observations do not necessarily cover complete scheduler runtimes.",
+    "U3-32 has telemetry for only 2 of 4 scheduler-allocated GPUs.",
+    "GPU utilization alone does not establish workload inefficiency."
+  ]
+}

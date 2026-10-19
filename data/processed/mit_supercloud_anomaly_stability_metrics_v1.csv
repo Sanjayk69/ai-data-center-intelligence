@@ -1,0 +1,2 @@
+jobs_compared,random_seeds,contamination,spearman_rank_correlation,spearman_p_value,interpretation
+25,20,0.1,0.53,0.006429405519902758,Exploratory rank association; not validation against ground-truth anomalies

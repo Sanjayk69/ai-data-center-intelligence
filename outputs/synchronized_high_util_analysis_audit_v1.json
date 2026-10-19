@@ -1,0 +1,14 @@
+{
+  "analysis": "Synchronized high-GPU-utilization intervals",
+  "utilization_threshold_pct": 75,
+  "minimum_duration_seconds": 30,
+  "continuity_requirement": "Consecutive one-second timestamps",
+  "stream_requirement": "All distinct observed GPU streams must have a record for the second",
+  "interpretation": "Descriptive telemetry analysis; high utilization does not by itself prove optimal performance or energy efficiency.",
+  "limitations": [
+    "Observed streams do not independently establish full runtime coverage.",
+    "Power represents observed GPU power, not facility energy.",
+    "Short gaps separate qualifying intervals.",
+    "Low utilization alone does not establish wasted compute."
+  ]
+}

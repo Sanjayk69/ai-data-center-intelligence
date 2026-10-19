@@ -1,0 +1,27 @@
+job_id,model,workload_family,investigation_priority,investigation_tier,allocation_status,telemetry_coverage_status,low_util_pct,low_util_energy_pct,observed_energy_Wh,low_util_observed_energy_Wh
+29381280178268,U3-32,Vision,Data-quality review,Data-quality review,Review telemetry coverage,INCOMPLETE: GPU allocation mismatch,9.640057020669992,2.8177610127907067,228.46136218364197,6.437495192901235
+48020198141948,U4-64,Vision,High review priority,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,16.317485898468977,4.704015673124547,111.70941379629627,5.254828333333334
+25713459161743,U3-128,Vision,High review priority,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,8.669833729216151,1.9457692419042216,577.8729025154321,11.244073194444445
+59638293409445,U4-128,Vision,Review,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,4.909240924092409,1.1376658839250886,1438.341750972222,16.363523395061726
+74636684972411,U3-64,Vision,Review,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,4.608390163256871,1.2119813892606854,451.8482372530864,5.476316543209876
+68307271431118,U4-32,Vision,Review,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,3.858797745773325,1.3897520342620413,452.0660635802469,6.282597314814815
+18203079158032,schnet,GNN,Review,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,3.425890217251575,1.0123055168872088,531.1310476940035,5.376668897707231
+79150048009801,U5-64,Vision,Routine,Tier 1 - High investigation,Allocation count matched,GPU allocation count matched,0.8598071755966493,0.2128375684331917,3038.772539521605,6.467649583333333
+18242747496687,U5-32,Vision,Review,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,14.74514563106796,4.942000591030693,66.87947767746914,3.305184182098765
+55788973536832,resnet101,Vision,High review priority,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,5.303350090179976,1.6552612182530164,2517.1791004938277,41.665889444444446
+36230628475012,pna,GNN,Review,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,2.753077975376197,0.970182068483901,135.2019287345679,1.3117048688271606
+59030654331752,U5-128,Vision,Review,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,2.6864494503869474,0.6577178746362911,1112.5593245061727,7.317501543209876
+2304959634945,distilbert-base-uncased,NLP,Review,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,2.3593643365506485,1.549055120809038,369.2480065740741,5.719855154320988
+13063192210942,vgg16,Vision,Review,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,2.151664611590629,0.5751565121790013,1122.6740934755292,6.457133159171075
+8427789164283,bert-base-uncased,NLP,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,1.4408321018529044,1.0113831389108334,615.0617881404321,6.220631219135802
+80384695883841,inception4,Vision,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.8065755108311569,0.1597426434448038,2121.9479503780863,3.38965574845679
+15179646833041,conv,GNN,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.6818496469610965,0.1608611762420419,1590.2547332407407,2.5581024691358025
+44317307973280,resnet50,Vision,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.5601659751037344,0.0911253110448991,1344.2248482098764,1.224929074074074
+48510612336879,vgg19,Vision,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.5127270834417782,0.1140052753568968,4298.182734429012,4.9001550617283955
+15305255756787,resnet152,Vision,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.3401866072165799,0.0879752809589167,3449.5509381172837,3.03475212962963
+42978538849394,resnet152_v2,Vision,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.2743746809596733,0.0669067753808843,1703.5392492372134,1.139783179012346
+9761351256032,dimenet,GNN,Routine,Tier 2 - Investigate,Allocation count matched,GPU allocation count matched,0.1594669698117974,0.0426641826739441,4964.582976280864,2.1180987499999997
+59464190077432,inception3,Vision,Routine,Tier 3 - Monitor,Allocation count matched,GPU allocation count matched,1.6109544905356423,0.41133503335247,566.5633511419753,2.330473549382716
+38596192451856,resnet50_v1.5,Vision,Routine,Tier 3 - Monitor,Allocation count matched,GPU allocation count matched,1.3953488372093024,0.3119535772283994,394.2071067824074,1.2297431712962963
+78604982814993,vgg11,Vision,Routine,Tier 3 - Monitor,Allocation count matched,GPU allocation count matched,0.4713372652567678,0.1248605425227279,2087.7590807682977,2.606787314814815
+80249445248004,resnet101_v2,Vision,Routine,Tier 3 - Monitor,Allocation count matched,GPU allocation count matched,0.1895409229299743,0.0663829171493775,2676.113615123457,1.7764822839506171

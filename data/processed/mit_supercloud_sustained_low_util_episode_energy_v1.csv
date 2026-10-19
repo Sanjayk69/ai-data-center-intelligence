@@ -1,0 +1,4 @@
+job_id,model,sustained_low_util_episode_count,cumulative_episode_gpu_seconds,measured_episode_energy_Wh,mean_episode_energy_Wh,energy_estimate_method,interpretation
+59638293409445,U4-128,4,1160,14.274563672839506,3.5686409182098764,Sum of GPU power samples assuming 1 second per sample,Observed energy during sustained low-utilization episodes; not estimated recoverable energy or savings
+25713459161743,U3-128,6,979,10.602283317901236,1.767047219650206,Sum of GPU power samples assuming 1 second per sample,Observed energy during sustained low-utilization episodes; not estimated recoverable energy or savings
+48020198141948,U4-64,1,386,4.955367870370369,4.955367870370369,Sum of GPU power samples assuming 1 second per sample,Observed energy during sustained low-utilization episodes; not estimated recoverable energy or savings

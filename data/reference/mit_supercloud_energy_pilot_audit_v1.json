@@ -1,0 +1,20 @@
+{
+  "dataset": "MIT Supercloud GPU telemetry pilot",
+  "transformed_rows": 828531,
+  "source_files": 35,
+  "jobs": 26,
+  "physical_gpu_streams": 64,
+  "missing_power_readings": 0,
+  "negative_power_readings": 0,
+  "duplicate_device_time_rows": 0,
+  "scheduler_allocation_matches": 25,
+  "scheduler_allocation_total": 26,
+  "energy_method": "Sum of one-second mean GPU power readings divided by 3600 to estimate Wh; divided by 1000 for kWh.",
+  "limitations": [
+    "GPU energy only; excludes CPU, memory, cooling, and facility overhead.",
+    "Observed telemetry intervals may not cover the complete scheduler runtime.",
+    "U3-32 has telemetry for 2 of 4 allocated GPUs; its job energy is incomplete.",
+    "Energy values are estimates derived from power telemetry, not direct energy-meter readings.",
+    "Do not interpret individual jobs as controlled model-efficiency comparisons."
+  ]
+}

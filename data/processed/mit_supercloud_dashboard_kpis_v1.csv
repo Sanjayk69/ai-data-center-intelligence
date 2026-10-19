@@ -1,0 +1,2 @@
+total_jobs,total_observed_gpu_energy_Wh,low_util_observed_energy_Wh,low_util_energy_share_pct,jobs_tier_1,jobs_tier_2,jobs_tier_3,jobs_data_quality_review,jobs_with_allocation_mismatch
+26,37965.933620827826,161.2100147574956,0.42461754363142273,7,14,4,1,1

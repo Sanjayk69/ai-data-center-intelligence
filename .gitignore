@@ -1,0 +1,73 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# macOS and editor files
+.DS_Store
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+
+# Large raw source data
+data/raw/
+
+# Large processed datasets
+data/processed/mit_supercloud_gpu_pilot_1s_all_files.csv
+data/processed/mit_supercloud_gpu_pilot_1s_all_files_v2.csv
+data/processed/mit_gpu_telemetry_pilot_1s.csv
+
+# Large reference datasets
+data/reference/mit_supercloud_gpu_pilot_cross_file_overlaps.csv
+
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Python bytecode and notebook caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+
+# Nested upstream repository metadata
+data/reference/mit-supercloud/.git/
+
+# Generated notebook output copies
+notebooks/outputs/
+
+# Keep only the corrected investigation view
+data/processed/mit_supercloud_investigation_view_v[2-8].csv
+
+# Upstream dataset repository copy; document its source instead
+data/reference/mit-supercloud/

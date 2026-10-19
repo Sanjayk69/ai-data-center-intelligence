@@ -1,0 +1,26 @@
+job_id,model,workload_family,provisional_tier_v2,iqr_signal_count,iqr_screening_result,iforest_anomaly_score,iforest_flag,tier_rationale,opportunity_screening_score,sustained_low_util_episode_count,cumulative_episode_gpu_seconds,measured_episode_energy_Wh
+48020198141948,U4-64,Vision,Tier 1 - High investigation,1,Single statistical signal,0.6858770456363242,True,Longest episode: 386 seconds (>300-second Tier 1 threshold); Low-utilization observations: 16.32%,92.0,1.0,386.0,4.955367870370369
+59638293409445,U4-128,Vision,Tier 1 - High investigation,1,Single statistical signal,0.6527008741059037,True,Cumulative low-utilization GPU time: 1160 GPU-seconds,92.25641025641025,4.0,1160.0,14.274563672839506
+25713459161743,U3-128,Vision,Tier 1 - High investigation,1,Single statistical signal,0.6209646396929388,True,Cumulative low-utilization GPU time: 979 GPU-seconds,90.82051282051282,6.0,979.0,10.602283317901236
+18242747496687,U5-32,Vision,Tier 2 - Investigate,1,Single statistical signal,0.5928017177405122,False,Longest episode: 223 seconds (>=180-second Tier 2 threshold); Low-utilization observations: 14.75%,76.05128205128206,,,
+18203079158032,schnet,GNN,Tier 2 - Investigate,0,No IQR signal,0.48137906707077033,False,Longest episode: 203 seconds (>=180-second Tier 2 threshold),75.07692307692308,,,
+59030654331752,U5-128,Vision,Tier 2 - Investigate,0,No IQR signal,0.4790198384527213,False,Longest episode: 263 seconds (>=180-second Tier 2 threshold),72.51282051282053,,,
+68307271431118,U4-32,Vision,Tier 2 - Investigate,0,No IQR signal,0.45962738026008776,False,Longest episode: 234 seconds (>=180-second Tier 2 threshold),81.69230769230768,,,
+79150048009801,U5-64,Vision,Tier 2 - Investigate,0,No IQR signal,0.457761158785451,False,Longest episode: 217 seconds (>=180-second Tier 2 threshold),62.153846153846146,,,
+74636684972411,U3-64,Vision,Tier 2 - Investigate,0,No IQR signal,0.4530993499495214,False,Longest episode: 220 seconds (>=180-second Tier 2 threshold),77.64102564102564,,,
+80384695883841,inception4,Vision,Tier 2 - Investigate,0,No IQR signal,0.4459367290131286,False,Longest episode: 227 seconds (>=180-second Tier 2 threshold),60.87179487179487,,,
+80249445248004,resnet101_v2,Vision,Tier 3 - Monitor,0,No IQR signal,0.5072253228561397,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,6.564102564102564,,,
+55788973536832,resnet101,Vision,Tier 3 - Monitor,0,No IQR signal,0.5048869009261412,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,49.53846153846154,,,
+38596192451856,resnet50_v1.5,Vision,Tier 3 - Monitor,0,No IQR signal,0.4913591769714763,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,18.102564102564102,,,
+13063192210942,vgg16,Vision,Tier 3 - Monitor,0,No IQR signal,0.4874628054338561,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,51.28205128205128,,,
+59464190077432,inception3,Vision,Tier 3 - Monitor,0,No IQR signal,0.45251974846015125,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,24.666666666666668,,,
+48510612336879,vgg19,Vision,Tier 3 - Monitor,0,No IQR signal,0.4374970106185767,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,47.69230769230769,,,
+42978538849394,resnet152_v2,Vision,Tier 3 - Monitor,0,No IQR signal,0.43472471026356996,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,15.846153846153847,,,
+36230628475012,pna,GNN,Tier 3 - Monitor,0,No IQR signal,0.42713192803808997,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,49.7948717948718,,,
+9761351256032,dimenet,GNN,Tier 3 - Monitor,0,No IQR signal,0.4213472685076605,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,33.94871794871795,,,
+78604982814993,vgg11,Vision,Tier 3 - Monitor,0,No IQR signal,0.4183428563006774,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,31.743589743589745,,,
+2304959634945,distilbert-base-uncased,NLP,Tier 3 - Monitor,0,No IQR signal,0.41471543732228344,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,40.56410256410256,,,
+44317307973280,resnet50,Vision,Tier 3 - Monitor,0,No IQR signal,0.40828692399398686,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,26.307692307692303,,,
+15305255756787,resnet152,Vision,Tier 3 - Monitor,0,No IQR signal,0.40256289100826337,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,33.12820512820513,,,
+8427789164283,bert-base-uncased,NLP,Tier 3 - Monitor,0,No IQR signal,0.40221248433284595,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,34.05128205128206,,,
+15179646833041,conv,GNN,Tier 3 - Monitor,0,No IQR signal,0.40003405447561324,False,No current Tier 1 or Tier 2 threshold met; continue monitoring,41.58974358974359,,,
