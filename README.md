@@ -2,6 +2,13 @@
 
 An analytics platform for investigating GPU utilization, power consumption, telemetry quality, and potential operational inefficiencies in AI data center workloads.
 
+## 🔎 Live Dashboard
+
+**[Explore the AI Data Center Intelligence Dashboard on Tableau Public](https://public.tableau.com/views/AIDataCenterIntelligence-Recovery/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+
+Explore GPU telemetry, workload behavior, anomaly screening, and operational investigation findings through the interactive dashboard.
+
+
 ## Project Overview
 
 This project uses real-world MIT SuperCloud GPU telemetry to build a data-driven investigation workflow. It combines telemetry profiling, job-level analytics, anomaly screening, energy analysis, and an operational review queue to help identify workloads that warrant further investigation.
