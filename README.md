@@ -8,6 +8,8 @@ An analytics platform for investigating GPU utilization, power consumption, tele
 
 Explore GPU telemetry, workload behavior, anomaly screening, and operational investigation findings through the interactive dashboard.
 
+[![AI Data Center Intelligence Dashboard](assets/dashboard-preview.png)](https://public.tableau.com/views/AIDataCenterIntelligence-Recovery/Dashboard1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
 
 ## Project Overview
 
